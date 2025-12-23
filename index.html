@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Etch-a-Sketch</h1>
+    </div>
+    <div class="main">
+    <div class="container"></div>
+    <div class="controls">
+        <button id="clear">Clear</button>
+        <label for="size">Grid Size:</label>
+        <input type="color" id="colorPicker" value="#000000">
+        <button id="black">Black</button>
+        <button id="random">Random Color</button>
+        <input type="text" id="size" min="1" max="100" value="16">
+        <button id="resize">Resize Grid</button>
+        <button onclick="resetColor()">Reset Color</button>
+    </div>
+    </div>
+</body>
+</html>
